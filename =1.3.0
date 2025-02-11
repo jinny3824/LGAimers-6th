@@ -1,0 +1,44 @@
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /home/najo/.conda/envs/dip
+
+  added / updated specs:
+    - xgboost
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    _py-xgboost-mutex-2.0      |            cpu_0           9 KB
+    certifi-2025.1.31          |  py310h06a4308_0         162 KB
+    libxgboost-2.1.1           |       h6a678d5_0         3.6 MB
+    py-xgboost-2.1.1           |  py310h06a4308_0         277 KB
+    scipy-1.15.1               |  py310h5f9d8c6_0        24.4 MB
+    xgboost-2.1.1              |  py310h06a4308_0          11 KB
+    ------------------------------------------------------------
+                                           Total:        28.4 MB
+
+The following NEW packages will be INSTALLED:
+
+  _py-xgboost-mutex  pkgs/main/linux-64::_py-xgboost-mutex-2.0-cpu_0 None
+  libgfortran-ng     pkgs/main/linux-64::libgfortran-ng-11.2.0-h00389a5_1 None
+  libgfortran5       pkgs/main/linux-64::libgfortran5-11.2.0-h1234567_1 None
+  libxgboost         pkgs/main/linux-64::libxgboost-2.1.1-h6a678d5_0 None
+  py-xgboost         pkgs/main/linux-64::py-xgboost-2.1.1-py310h06a4308_0 None
+  scipy              pkgs/main/linux-64::scipy-1.15.1-py310h5f9d8c6_0 None
+  xgboost            pkgs/main/linux-64::xgboost-2.1.1-py310h06a4308_0 None
+
+The following packages will be UPDATED:
+
+  certifi            conda-forge/noarch::certifi-2024.12.1~ --> pkgs/main/linux-64::certifi-2025.1.31-py310h06a4308_0 None
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  ca-certificates    conda-forge::ca-certificates-2025.1.3~ --> pkgs/main::ca-certificates-2024.12.31-h06a4308_0 None
+
+
+Proceed ([y]/n)? 

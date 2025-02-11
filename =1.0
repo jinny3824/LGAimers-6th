@@ -1,0 +1,42 @@
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /home/najo/.conda/envs/dip
+
+  added / updated specs:
+    - scikit-learn
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    certifi-2025.1.31          |  py310h06a4308_0         162 KB
+    joblib-1.4.2               |  py310h06a4308_0         401 KB
+    scikit-learn-1.6.1         |  py310h6a678d5_0         9.4 MB
+    scipy-1.15.1               |  py310h5f9d8c6_0        24.4 MB
+    threadpoolctl-3.5.0        |  py310h2f386ee_0          43 KB
+    ------------------------------------------------------------
+                                           Total:        34.3 MB
+
+The following NEW packages will be INSTALLED:
+
+  joblib             pkgs/main/linux-64::joblib-1.4.2-py310h06a4308_0 None
+  libgfortran-ng     pkgs/main/linux-64::libgfortran-ng-11.2.0-h00389a5_1 None
+  libgfortran5       pkgs/main/linux-64::libgfortran5-11.2.0-h1234567_1 None
+  scikit-learn       pkgs/main/linux-64::scikit-learn-1.6.1-py310h6a678d5_0 None
+  scipy              pkgs/main/linux-64::scipy-1.15.1-py310h5f9d8c6_0 None
+  threadpoolctl      pkgs/main/linux-64::threadpoolctl-3.5.0-py310h2f386ee_0 None
+
+The following packages will be UPDATED:
+
+  certifi            conda-forge/noarch::certifi-2024.12.1~ --> pkgs/main/linux-64::certifi-2025.1.31-py310h06a4308_0 None
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  ca-certificates    conda-forge::ca-certificates-2025.1.3~ --> pkgs/main::ca-certificates-2024.12.31-h06a4308_0 None
+
+
+Proceed ([y]/n)? 
